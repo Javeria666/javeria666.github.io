@@ -7,10 +7,10 @@ const myImage = document.querySelector("img");
 
     myImage.addEventListener("click", () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/miku-image.png") {
-        myImage.setAttribute("src", "images/miku-image-2.png");
-    } else if(mySrc === "images/miku-image-2.png"){
-        myImage.setAttribute("src", "images/frog-image.png");
+    if (mySrc === "miku-image.png") {
+        myImage.setAttribute("src", "miku-image-2.png");
+    } else if(mySrc === "miku-image-2.png"){
+        myImage.setAttribute("src", "frog-image.png");
     }
     else{
         myImage.setAttribute("src", "images/miku-image.png");
