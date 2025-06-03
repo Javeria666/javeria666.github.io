@@ -13,7 +13,7 @@ const myImage = document.querySelector("img");
         myImage.setAttribute("src", "frog-image.png");
     }
     else{
-        myImage.setAttribute("src", "images/miku-image.png");
+        myImage.setAttribute("src", "miku-image.png");
     }
 
     });
