@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
   const myImage = document.querySelector("img");
   const myButton = document.querySelector("button");
   const myHeading = document.querySelector("h1");
@@ -36,4 +36,4 @@ document.addEventListener("DOMContentLoaded", function() {
   if (myButton) {
     myButton.addEventListener("click", setUserName);
   }
-});
+};
